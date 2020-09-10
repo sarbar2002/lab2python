@@ -22,13 +22,12 @@ def getLetterGrade(grade):
   elif grade >= 60:
     return "D."
   elif grade < 60:
-   return "F."
+    return "F."
 
 def run():
-    grade_input = float(input("Enter your CMPSC 131 grade: "))  
-    print(f"Your letter Grade for CMPSC 131 is {getLetterGrade(grade_input)}")
-  
+  grade_input = float(input("Enter your CMPSC 131 grade: "))  
+  print(f"Your letter Grade for CMPSC 131 is {getLetterGrade(grade_input)}")
 
 
-  if __name__ == "__main__":
-    run()
+if __name__ == "__main__":
+  run()  
